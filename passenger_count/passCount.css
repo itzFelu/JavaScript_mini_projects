@@ -1,0 +1,55 @@
+#container-el{
+    border: 5px solid silver;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+#count-el{
+    font-size: 40px;
+    /* text-decoration: underline; */
+    text-decoration-color: blueviolet; 
+}
+#count-num{
+    display: inline;
+    color: rgb(253, 76, 76);
+    text-decoration: none;
+}
+button:hover{
+    cursor: pointer;
+}
+#incre-el,#decre-el{
+    padding-bottom: 2px;
+    width: 40px;
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    background-color: aquamarine;
+    border-width: 1px;
+    border-radius: 5px;
+}
+#incre-el:hover{
+    background-color: green;
+}
+#decre-el:hover{
+    background-color: yellowgreen;
+}
+#save-el,#reset-el{
+    background-color: bisque;
+    border-radius: 5px;
+}
+#save-el:hover{
+    color: black;
+    background-color: rgb(91, 95, 95);
+}
+#reset-el:hover{
+    color: black;
+    background-color: rgb(255, 0, 0);
+}
+#savelog-el{
+    font-style: italic;
+}
