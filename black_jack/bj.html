@@ -6,19 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Black Jack Game</title>
     <link rel="stylesheet" href="bj.css">
-    <script src="bj.js"></script>
 </head>
 <body>
-    <h1>Blackjack</h1>
+    <h1 style="text-decoration: underline; text-decoration-color: rgba(182, 148, 0, 0.699);">Blackjack</h1>
     <div class="details">
-        <p>want to play a round?</p>
-        <p>Cards: </p>
-        <p>Sum: </p>
+        <p id="dialouge-el">want to play a round?</p>
+        <p id="cards-el">Cards: </p>
+        <p id="sum-el">Sum: </p>
     </div>
     <div>
-        <button>START GAME</button>
+        <button id="start-butt">START GAME</button>
         <br>
-        <button>NEW CARD</button>
+        <button id="newCard-butt">NEW CARD</button>
     </div>
+    <table id="score-el">
+        <tr>
+            <th>Name</th>
+            <th>Score</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    
+    </table>
 </body>
+<script src="bj.js"></script>
 </html>
